@@ -1,5 +1,5 @@
 import csv
-from six.moves import urllib
+import urllib.request
 import json
 
 response = urllib.request.urlopen(
